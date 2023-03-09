@@ -32,7 +32,7 @@ document.querySelector('#app').innerHTML = `
     <div class="backgroundContainer", style="max-width:80rem;flex:center">
       <div class="mainContent">
 
-        <img src="thor.png" alt="Thor" style="padding:0rem;padding-bottom:3rem;padding-top:3rem">
+        <img src="https://i.postimg.cc/WzhG7cyJ/thor.png" alt="Thor" style="padding:0rem;padding-bottom:3rem;padding-top:3rem">
         <div class="main1"></div>
         <div class="placeholdersoyoucanscroll"style="font-size:1.2em;text-align:justify;text-justify:inter-word;padding:2rem;padding-top:0rem;color:#d8d8d8">
 
