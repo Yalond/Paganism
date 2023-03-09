@@ -23,21 +23,18 @@ document.querySelector('#app').innerHTML = `
 */
 
 document.querySelector('#app').innerHTML = `
-  <main>
-    <div id="main1">
-    </div>
-    <div id="placeholdersoyoucanscroll">
-    hello what is this
-    </div>
-  </main>
   <!--
-  <div class="backgroundItem", style="width:100%">
-    <div class="backgroundContainer", style="width:80rem;">
+  <main>
+    <div id="main1"></div>
+    <div id="placeholdersoyoucanscroll">
+    </div>
+  </main>-->
+    <div class="backgroundContainer", style="max-width:80rem;flex:center">
       <div class="mainContent">
 
-        <img src="thor.png" alt="Thor" style="padding:5rem;padding-bottom:3rem">
+        <img src="thor.png" alt="Thor" style="padding:0rem;padding-bottom:3rem;padding-top:3rem">
         <div class="main1"></div>
-        <div class="placeholdersoyoucanscroll"style="font-size:20px;text-align:justify;text-justify:inter-word;padding:5rem;padding-top:0rem;color:#d8d8d8">
+        <div class="placeholdersoyoucanscroll"style="font-size:1.2em;text-align:justify;text-justify:inter-word;padding:2rem;padding-top:0rem;color:#d8d8d8">
 
           <h2> Paganism </h2> 
           Paganism is a term used to describe a broad range of spiritual and religious beliefs and practices that are typically characterized by a connection to nature, the worship of multiple gods and goddesses, and a focus on individual spiritual experience and personal responsibility. The term "pagan" originally referred to people who practiced religions other than Judaism, Christianity, or Islam.
@@ -76,9 +73,13 @@ document.querySelector('#app').innerHTML = `
           </br> 
           </br> 
           Ultimately, whether or not to believe in Thor or any other deity is a personal choice, based on one's individual beliefs and experiences. While some may find solace in the idea of a powerful protector god, others may find meaning and purpose in different belief systems.
+          </br> 
+          </br> 
+          </br> 
+          </br> 
+          </br> 
         </div>
-    </div>
-  </div>-->
+  </div>
 `
 document.getElementById("body").onscroll = function myFunction() {  
   var scrolltotop = document.scrollingElement.scrollTop;
